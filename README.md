@@ -2,6 +2,8 @@
 
 Este projeto implementa um classificador de textos para identificar se um conteúdo foi escrito por um ser humano ou gerado por inteligência artificial, utilizando o modelo BERTimbau.
 
+[![Hugging Face Spaces](https://img.shields.io/badge/demo-online-blue?logo=huggingface)](https://huggingface.co/spaces/joaogerd/ia-detector)
+
 ---
 
 ## 📂 Estrutura do Projeto
@@ -89,6 +91,17 @@ Interface disponível em `http://localhost:7860`
 
 ---
 
+## 🧪 Deploy online (Hugging Face Spaces)
+
+Você pode clonar este repositório e importar no Hugging Face Spaces:
+- Vá para: https://huggingface.co/spaces
+- Clique em "Create new Space"
+- Tipo: `Gradio`
+- Escolha: `Import from GitHub`
+- Link: `https://github.com/joaogerd/ia-detector`
+
+---
+
 ## 📊 Dataset
 - Textos humanos extraídos de obras literárias (label: `0`)
 - Textos IA gerados automaticamente (label: `1`)
@@ -101,7 +114,7 @@ Interface disponível em `http://localhost:7860`
 ---
 
 ## 📋 Licença
-MIT ou LGPL v3 (dependendo da distribuição escolhida).
+Distribuído sob a Licença LGPL v3.
 
 ---
 
