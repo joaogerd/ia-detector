@@ -1,0 +1,16 @@
+# Conteúdo de environment.yaml
+
+name: ia-detector
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - transformers>=4.37.0
+      - datasets>=2.14.0
+      - scikit-learn
+      - torch>=2.0.0
+      - pandas
+      - gradio>=4.0

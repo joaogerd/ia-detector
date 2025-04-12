@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.pkl
+*.log
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Datasets e modelos
+model/
+dataset/*.csv
+results/
+logs/
+
+# Conda e pip
+env/
+*.lock
+
+# VSCode, PyCharm
+.vscode/
+.idea/
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db

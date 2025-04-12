@@ -1,0 +1,8 @@
+# Conteúdo de requirements.txt
+
+transformers>=4.37.0
+datasets>=2.14.0
+scikit-learn
+torch>=2.0.0
+pandas
+gradio>=4.0
