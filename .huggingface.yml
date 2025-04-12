@@ -1,0 +1,13 @@
+# Este arquivo informa ao Hugging Face como construir o app automaticamente
+# com base em arquivos que estão no GitHub
+
+title: "IA Detector"
+emoji: "🧠"
+author: joaogerd
+app_file: src/app.py
+sdk: gradio
+dependencies:
+  - requirements.txt
+  - environment.yaml
+
+# Pode ser usado com deploy automático a partir do GitHub
