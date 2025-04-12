@@ -6,6 +6,8 @@ emoji: "🧠"
 author: joaogerd
 app_file: src/app.py
 sdk: gradio
+description: "Classificador de textos que identifica se o conteúdo foi escrito por um humano ou por uma IA usando BERTimbau."
+repository: https://github.com/joaogerd/ia-detector
 dependencies:
   - requirements.txt
   - environment.yaml
