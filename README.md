@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧠 IA Detector (Português)
 
 Este projeto implementa um classificador de textos para identificar se um conteúdo foi escrito por um ser humano ou gerado por inteligência artificial, utilizando o modelo BERTimbau.
